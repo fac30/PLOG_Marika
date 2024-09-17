@@ -131,5 +131,13 @@ I’ve struggled with some of the **JavaScript array exercises** in **Execute Pr
 
 Feedback (For CF's)
 [Course Facilitator name]
+
+Alexander
+
 [What went well]
+
+Well done Marika, great example of what a progress log should be. You covered many important topics here.
+
 [Even better if]
+
+Maybe you could add a few lines regarding project management (no need to modify this week, but could be added on Week02). Regarding long code snippets, you could make them shorter by removing whatever is not needed to support the idea you're explaining. There's no need to be 100% true to the original code you used in your project.
