@@ -125,8 +125,9 @@ Do not fill in the feedback section. The Founders and Coders team will update th
     res.send(`Received: ${req.body}`);
   });
  ```
+
 **ChatBot project**
-  - At the start of the project, I had trouble following the documentation guidelines. Even after reading the documentation, I found it hard to change the template to meet our project’s specific needs. However, I got better at this as the project went on.
+- At the start of the project, I had trouble following the documentation guidelines. Even after reading the documentation, I found it hard to change the template to meet our project’s specific needs. However, I got better at this as the project went on.
 
 - Another challenge was integrating my code into the main project. My functions worked well on their own, but sometimes didn’t work correctly when added to the larger codebase. This led to a lot of troubleshooting and debugging to fix problems with dependencies, variable scope, and event handling. I also faced issues where the API didn’t always communicate properly with the bot, which made the integration even more challenging.
 
