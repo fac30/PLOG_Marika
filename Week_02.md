@@ -113,29 +113,31 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 **Project Management**
 - To manage the project efficiently, my team and I used a task board and timeline to break down tasks, prioritise them, and track progress(divided into "To Do," "In Progress," and "Done" columns). This structured approach ensured steady progress and timely completion of the project tasks. Additionally, the timeline helped in coordinating tasks with deadlines, ensuring that everything was completed within the set timeframe. 
 
+Certainly! Here's the corrected markdown:
+
 ### 2. Show an example of some of the learning outcomes you have struggled with and/or would like to revisit.
 
 **Understanding HTTP and Middleware in Express**
 - I struggled with setting up middleware and handling HTTP POST requests during the `Work09_NodeAndExpress_YourName` workshop. Below is the key part of the code where I faced issues:
-  
+
   ```javascript
   server.use(express.json());
 
   server.post('/data', (req, res) => {
     res.send(`Received: ${req.body}`);
   });
- ```
+  ```
 
-**ChatBot project**
+**ChatBot Project**
 - At the start of the project, I had trouble following the documentation guidelines. Even after reading the documentation, I found it hard to change the template to meet our project’s specific needs. However, I got better at this as the project went on.
 
 - Another challenge was integrating my code into the main project. My functions worked well on their own, but sometimes didn’t work correctly when added to the larger codebase. This led to a lot of troubleshooting and debugging to fix problems with dependencies, variable scope, and event handling. I also faced issues where the API didn’t always communicate properly with the bot, which made the integration even more challenging.
 
-
-**Additional notes:**
+**Additional Notes**
 - Initially, I felt intimidated by the Execute Program concurrency course, so I decided to first complete the related Codecademy courses on Promises and Async-Await. This approach helped me feel more prepared and confident to tackle the Execute Program course.
 
-- Pair programming was highly beneficial; my teammate and I collaborated on debugging, refactoring, and modularising the code' files, leading to cleaner and more efficient project outcomes. This experience significantly contributed to my learning progress. 
+- Pair programming was highly beneficial; my teammate and I collaborated on debugging, refactoring, and modularizing the code files, leading to cleaner and more efficient project outcomes. This experience significantly contributed to my learning progress.
+
 
 
 
