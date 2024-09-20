@@ -101,27 +101,7 @@ Do not fill in the feedback section. The Founders and Coders team will update th
     res.send(`Received: ${req.body}`);
   });
   ```
-
-**OpenAI Integration Challenges**
-- I faced difficulties adapting OpenAI’s API within my Discord bot, especially in managing asynchronous API calls. Below is a streamlined version of the problematic code that I eventually resolved:
-  
-  ```javascript
-  async function getOpenAIResponse(messageToAI) {
-    try {
-      const completion = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo",
-        messages: [{ role: "user", content: messageToAI }],
-      });
-
-      return completion.choices[0].message.content;
-    } catch (error) {
-      console.error("Error with OpenAI API:", error);
-      return "There was an error processing your request.";
-    }
-  }
-  ```
-
-### Additional Notes
+**Additional notes:**
 - Initially, I felt intimidated by the Execute Program concurrency course, so I decided to first complete the related Codecademy courses on Promises and Async-Await. This approach helped me feel more prepared and confident to tackle the Execute Program course.
 
 - Adapting the OpenAI and Discord template code was challenging despite reading the documentation. Pair programming was highly beneficial; my teammate and I collaborated on debugging, refactoring, and modularising the code' files, leading to cleaner and more efficient project outcomes. This experience significantly contributed to my learning progress.
