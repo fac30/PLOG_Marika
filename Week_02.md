@@ -113,8 +113,6 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 **Project Management**
 - To manage the project efficiently, my team and I used a task board and timeline to break down tasks, prioritise them, and track progress(divided into "To Do," "In Progress," and "Done" columns). This structured approach ensured steady progress and timely completion of the project tasks. Additionally, the timeline helped in coordinating tasks with deadlines, ensuring that everything was completed within the set timeframe. 
 
-Certainly! Here's the corrected markdown:
-
 ### 2. Show an example of some of the learning outcomes you have struggled with and/or would like to revisit.
 
 **Understanding HTTP and Middleware in Express**
