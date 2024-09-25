@@ -16,8 +16,6 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 
 - Set up and configured `tsconfig.json` to ensure the TypeScript compiler properly handles the project.
 
-- Structured a TypeScript-based Express application and confirmed the successful initialization of the Express server.
-
 - Installed TypeScript and the necessary packages using the following command:
 
     ```bash
