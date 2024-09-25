@@ -142,6 +142,14 @@ Certainly! Here's the corrected markdown:
 
 
 ## Feedback (For CF's)
-> [**Course Facilitator name**]  
-> [*What went well*]  
+> [**Course Facilitator name**]
+
+Alexander
+
+> [*What went well*]
+
+Very good example of short code snippets and commands. I won't say that it is my favorite Progress log in the cohort, but it is!
+
 > [*Even better if*]
+
+I won't change anything. I would just say to your future self to check this log before looking for help somewhere else.
