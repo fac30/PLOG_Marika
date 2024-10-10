@@ -89,6 +89,12 @@ When I get more comfortable with React, I’d like to focus on building accessib
 
 
 ## Feedback (For CF's)
-> [**Course Facilitator name**]  
-> [*What went well*]  
+> [**Course Facilitator name**]
+
+Alexander
+
+> [*What went well*]
+
+Excellent. I loved how you explained your learnings and the code snippets. Everything is quite concise and right to the point
+
 > [*Even better if*]
