@@ -71,6 +71,16 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 ### Cypress
 - Successfully installed Cypress in my project using npm, despite encountering some initial dependency conflicts.  
 - I completed the courses on [Cypress learning platform ](https://learn.cypress.io/#courses) including "Testing Your First Application," "Testing Foundations," "Cypress Fundamentals," and "Advanced Cypress Testing Concepts." These courses provided me with a comprehensive overview of Cypress capabilities.
+- Here one example of my learning by doing th course. The code shows how to write end-to-end tests and simulate user journeys.
+  
+  ```describe("User Journey", () => {
+  it("should allow a user to navigate and complete lessons", () => {
+    cy.visit("<http://localhost:3000>");
+    cy.get('[data-cy="start-button"]').click();
+    cy.location("pathname").should("equal", "/course");
+  });
+  }); ```
+
 
 ##### Struggles
 - Encountered challenges resolving dependency conflicts during Cypress installation, particularly between the required TypeScript version for `react-scripts` and the installed version:
