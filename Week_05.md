@@ -64,7 +64,7 @@ Do not fill in the feedback section. The Founders and Coders team will update th
     ```typescript
     http://localhost:3000/questions?quizId=${quizId}
     ```
-  - Faced challenges ensuring data consistency between backend and frontend. Iteratively improved API calls and data handling to achieve better synchronisation.
+  - Faced challenges ensuring data consistency between backend and frontend. Iteratively improved API calls and data handling to achieve better synchronisation with the help of my colleagues.
   - I didn't consider accessibility at all while working on the project. I focused on aesthetics and deactivated the focus option on buttons during styling, which I plan to address moving forward.
 
 
@@ -98,7 +98,7 @@ I had to downgrade TypeScript to a version compatible with `react-scripts`, high
 ### AWS
 - I successfully launched an EC2 instance and configured security groups to allow SSH and HTTP traffic on `port 3000`. This allowed me to host my backend project.
 - After transferring my project files to the EC2 instance using scp, I installed dependencies and ran the project. The server started on `localhost:3000` initially, and I attempted to configure it to run on 0.0.0.0:3000 to make it accessible externally.
-- I worked on a separate aws branch in my backend project and pushed changes to GitHub. I pulled these changes onto the EC2 instance to deploy them.
+- I worked on a separate aws branch in my backend project and pushed changes to GitHub. I pulled these changes onto the EC2 instance to (deploy them).
 
 - Issue with Server Binding:  
   The BIG challenge was getting the server to bind to 0.0.0.0 instead of localhost. Initially, the server was only accessible within the EC2 instance. Despite trying several fixes, the server remained bound to localhost:3000, preventing external access.
