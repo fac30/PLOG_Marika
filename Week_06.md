@@ -96,6 +96,7 @@ My team and I collaborated to create the database schema for our project, which 
 - **Front-End Project Setup**
 
 I was responsible for setting up the front-end repository, configuring the folder structure, and installing necessary dependencies. This included Vite, Prettier, TypeScript configurations, Tailwind, and Git conventional commit standards.
+<img width="139" alt="Screenshot 2024-10-18 at 16 33 47" src="https://github.com/user-attachments/assets/6aa16db8-1072-4bef-a3f4-7a1d2faf6f34">
 
 Configuring these tools helped me improve my understanding of front-end tooling and efficient development processes. It also strengthened my ability to apply standards to ensure consistent and maintainable code across the project.
 
