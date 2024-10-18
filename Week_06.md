@@ -82,7 +82,7 @@ SELECT id, name, unit_price * units_in_stock AS stock_value FROM products;
 - **Taking on the Scrum Master Role**
 
 Beeing a Scrum Master I focused on establishing an efficient workflow for the project. One of the main tasks was to set up Jira board for our FHR Sprint 1, which required creating epics, tasks, subtasks, and assigning them to team members. The process involved coordinating and ensuring the alignment of the entire team.
-<img width="982" alt="Screenshot 2024-10-17 at 12 57 39" src="https://github.com/user-attachments/assets/a98df3dd-53b7-48bc-b795-c01d26b2af5f">
+<img width="845" alt="Screenshot 2024-10-18 at 16 32 24" src="https://github.com/user-attachments/assets/28da5591-7157-4275-af51-29d8d758fce5">
 
 
 Setting up and managing the Jira board provided me with a comprehensive understanding of the project workflow, helping me to break down larger objectives into manageable tasks. I gained confidence in using Jira to make our tasks more granular and ensuring to work on the MVP before stratching ourselves.
