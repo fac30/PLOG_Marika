@@ -104,6 +104,7 @@ Configuring these tools helped me improve my understanding of front-end tooling 
 - **React & Accessibility**:  This week, I successfully refactored key components like `Header`, `Footer`, and `Main` from the homepage into their own files, improving the maintainability and clarity of the app structure. I gained a better understanding of how React’s component-based architecture promotes modularity and reuse. For example, I extracted `IconWithText` from the `Header` component for better flexibility.
         
         ```tsx
+  
         const Header = () => {
           return (
             <header className="bg-white p-4 shadow">
@@ -116,6 +117,7 @@ Configuring these tools helped me improve my understanding of front-end tooling 
             </header>
           );
         };
+  
         ```
 
 - **React Router for Navigation**: I wrapped the entire app in `Router` to solve a blank page issue and ensure seamless navigation between different components. Even though the routing logic isn't fully implemented, this work sets up a flexible structure for future expansion.
