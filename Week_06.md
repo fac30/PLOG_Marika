@@ -165,6 +165,10 @@ What I left behind this week:
 
 
 ## Feedback (For CF's)
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+> [**Course Facilitator name**]
+ 
+Alexander
+
+> [*What went well*]
+
+Great PLog Marika, you explained very well your SQL , Project Planning and React Learnings. It is also great that you are taking into consideration accessibility from day one. Well done
