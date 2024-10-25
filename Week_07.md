@@ -95,9 +95,7 @@ theme: {
 },
 ```
 
-- Implemented navigation across pages using React Router, enabling seamless transitions between components like` Home`, `UserLogin`, and `ShopCart`. This improved the user experience by allowing navigation without page reloads.ying React Router, I improved my understanding of client-side routing, ensuring a better user experience by navigating without reloading the page.
-  
-Implementing React Router helped me better understand client-side routing and navigation within React. However, in one case, I replaced the `navigate` route with `<Link to={to}>` for better navigation handling.
+- Implemented navigation across pages using React Router, enabling seamless transitions between components like` Home`, `UserLogin`, and `ShopCart`. This improved the user experience by allowing navigation without page reloads. Implementing React Router helped me better understand client-side routing and navigation within React. However, in one case, I replaced the `navigate` route with `<Link to={to}>` for better navigation handling.
 
 ```tsx
 import { Link } from 'react-router-dom';
