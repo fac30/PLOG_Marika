@@ -107,6 +107,15 @@ Do not fill in the feedback section. The Founders and Coders team will update th
       { name: <FaTwitter />, url: "https://www.twitter.com" },
     ];
     ```
+    
+- **Managing Type Conflicts with TypeScript Prop Interfaces**: Encountered TypeScript errors when passing objects, such as social media icons, as props in components. Initially defined `name` as a `string`, which caused conflicts when JSX elements were passed. Adjusted `name` to `React.ReactNode`, which resolved the issue.
+
+    ```typescript
+    const socialLinks = [
+      { name: <FaFacebookF />, url: "https://www.facebook.com" },
+      { name: <FaTwitter />, url: "https://www.twitter.com" },
+    ];
+    ```
 
 
 ## Deployment
@@ -154,16 +163,6 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 
 - **Troubleshooting AWS CDK Stack Rollbacks and Updates** : Had an `UPDATE_ROLLBACK_FAILED` error during deployment, which prevented the CloudFormation stack from updating. I decided to manually deleting the stack, and retrying deployment, but I failed to do so and gave up.
 <img width="945" alt="Screenshot 2024-10-29 at 16 53 10" src="https://github.com/user-attachments/assets/abdde838-c2a4-4ac2-9671-69bad0cc8242">
-
-
-- **Managing Type Conflicts with TypeScript Prop Interfaces**: Encountered TypeScript errors when passing objects, such as social media icons, as props in components. Initially defined `name` as a `string`, which caused conflicts when JSX elements were passed. Adjusted `name` to `React.ReactNode`, which resolved the issue.
-
-    ```typescript
-    const socialLinks = [
-      { name: <FaFacebookF />, url: "https://www.facebook.com" },
-      { name: <FaTwitter />, url: "https://www.twitter.com" },
-    ];
-    ```
 
 
 - Faced TypeScript compilation errors in the CI pipeline due to missing module declarations, specifically `aws-cdk-lib`. This required adjusting TypeScript settings and ensuring that all necessary dependencies were installed in the CI environment.
