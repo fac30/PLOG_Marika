@@ -80,6 +80,17 @@ Do not fill in the feedback section. The Founders and Coders team will update th
     };
     ```
 
+- **Implemented Cart Summary with Dynamic Shipping Options**: Based on feedback from Max, I updated the `CartSummary` component to fetch shipping options from the database. Now users can select a preferred option, which then adjusts the delivery charge and total price.
+
+    ```typescript
+    useEffect(() => {
+      fetch('http://localhost:3000/shipping-options')
+        .then(response => response.json())
+        .then(data => setShippingOptions(data))
+        .catch(error => console.error('Error:', error));
+    }, []);
+    ```
+
 
 #### 2. Learning Outcomes Struggled With or Need to Revisit
 
