@@ -126,6 +126,6 @@ Debugging Tools:
 
 ## Feedback (For CF's)
 > [**Course Facilitator name**]
-> Alexander
+Alexander
 > [*What went well*]  
-> Excellent PLog, as always. Very detailed learnings and good examples
+Excellent PLog, as always. Very detailed learnings and good examples
