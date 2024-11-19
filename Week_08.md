@@ -175,6 +175,14 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 
 
 ## Feedback (For CF's)
-> [**Course Facilitator name**]  
-> [*What went well*]  
+> [**Course Facilitator name**]
+ 
+Alexander
+
+> [*What went well*]
+
+Excellent implementation of global state management using Context and useReducer with proper TypeScript typing. Good progression from basic cart functionality to more complex features like dynamic shipping options. Strong CI/CD setup with GitHub Actions.
+
 > [*Even better if*]
+
+Document your CloudFormation stack error and resolution attempts in more detail - the "gave up" approach doesn't help track what specifically went wrong for future reference.
