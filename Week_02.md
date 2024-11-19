@@ -150,4 +150,4 @@ Very good example of short code snippets and commands. I won't say that it is my
 
 > [*Even better if*]
 
-I won't change anything. I would just say to your future self to check this log before looking for help somewhere else.
+I won't change anything. I would just say to your future self to check this log before looking for help somewhere else
