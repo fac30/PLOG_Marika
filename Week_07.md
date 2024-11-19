@@ -173,6 +173,14 @@ I struggled particularly with session creation, user registration, and secure lo
 
 
 ## Feedback (For CF's)
-> [**Course Facilitator name**]  
-> [*What went well*]  
+> [**Course Facilitator name**]
+ 
+Alexander
+
+> [*What went well*]
+
+Strong implementation of shopping cart functionality with localStorage, showing good understanding of state management. Clean component separation with Quantifier and TotalPrice. Good SQL learning progression from basic operations to foreign key relationships.
+
 > [*Even better if*]
+
+Tackle the homepage cart count bug you identified and implement the authentication features you skipped. Your reflection shows you know what needs work - make these your priority tasks.
