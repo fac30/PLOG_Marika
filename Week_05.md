@@ -110,6 +110,14 @@ I had to downgrade TypeScript to a version compatible with `react-scripts`, high
 
 
 ## Feedback (For CF's)
-> [**Course Facilitator name**]  
-> [*What went well*]  
+> [**Course Facilitator name**]
+
+Alexander
+
+> [*What went well*]
+
+Solid backend refactoring with improved TypeScript implementation using generics. Good understanding of local storage implementation and file handling. Strong effort to learn Cypress through structured courses.
+
 > [*Even better if*]
+
+Provide clear solutions attempted for the EC2 server binding issue, rather than just describing the problem. The AWS deployment challenges need more specific documentation of what failed in the sync process.
