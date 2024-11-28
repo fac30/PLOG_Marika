@@ -73,6 +73,11 @@ docker push myrepo/nginx:custom
 > [your evidence here]
 
 ## Feedback (For CF's)
-> [**Course Facilitator name**]  
+> [**Course Facilitator name**]
+
+Alexander
+
 > [*What went well*]  
-> [*Even better if*]
+
+Well done on learning Figma, it can be quite frustrating at the beggining, but it is a very useful tool. I am also very happy to see that you are spending time learning Docker. You will need it in your working place so the more you learn now, the better
+
