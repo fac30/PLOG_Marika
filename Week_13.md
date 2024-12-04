@@ -22,6 +22,23 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 - I dynamically filter and display content based on tags using Query Blocks. For instance, I added tags like 'Education,' 'Art,' and 'Event' to various posts. This allows users to filter and view content tailored to their interests directly on the site, enhancing the browsing experience. This process involves configuring Query Blocks to fetch posts tagged with specific terms and displaying them in the posts.
 <img width="1362" alt="Screenshot 2024-12-04 at 22 03 59" src="https://github.com/user-attachments/assets/69a991b4-75ed-4594-b270-1eb586cde0f9">
 
+- Went back to Larascast tutorial.
+In one of the lessons, at the suggestion of my colleague, I not only followed the tutorial but also tried to improve code flexibility independently. I modularised Tailwind CSS class logic by separating it from the index.view.php file. Created a functions.php file with a navStyle() function to dynamically apply classes based on the current URL.
+
+```
+<!-- index.view.php -->
+<a href="/" class="<?php echo navStyle('/'); ?>" aria-current="page">Home</a>
+
+<!-- functions.php -->
+<?php
+function navStyle($path) {
+    return ($_SERVER['REQUEST_URI'] === $path) ? 
+        'bg-gray-900 text-white px-3 py-2 text-sm font-medium' : 
+        'text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium';
+}
+?>
+```
+
  ### 2. Show an example of some of the learning outcomes you have struggled with and/or would like to re-visit.
 - Built post templates for different sections (Projects, Organisations, Resources). Although WordPress does not allow inserting templates into posts directly, I resolved this by creating Patterns (reusable components) that serve as pre-configured layouts for posts.
 This workaround ensures the product owner can easily add content by filling in pre-set blocks with images and text, maintaining a consistent design.
